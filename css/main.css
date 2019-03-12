@@ -35,4 +35,21 @@ body {
     padding: 0%;
 }
 
-#holder {}
+.songDetailsHolder {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+#songName {
+    color: white;
+    font-size: 40px;
+    text-decoration: underline;
+    visibility: hidden;
+}
+
+#songAuthor {
+    color: white;
+    font-size: 25px;
+    visibility: hidden;
+}
