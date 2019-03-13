@@ -4,17 +4,17 @@
             {
                 "name" : "bellyache",
                 "url" : "bellyache",
-                "author": "Billie Eilish"
+                "_author": "Billie Eilish"
             },
             {
                 "name" : "bury a friend",
                 "url" : "bury_a_friend",
-                "author": "Billie Eilish"
+                "_author": "Billie Eilish"
             },
             {
                 "name" : "wish you were gay",
                 "url" : "wish_you_were_gay",
-                "author": "Billie Eilish"
+                "_author": "Billie Eilish"
             }
         ]
     }
