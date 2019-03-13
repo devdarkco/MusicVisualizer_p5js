@@ -2,24 +2,50 @@
 
 **Notice:**
 
-If you clone this repo you should add your own songs in the "*p5/assets/*" folder in **.mp3** format.
+If you clone this repo you should add your own songs in the "*p5/assets/songs/*" folder in **.mp3** format.
 
-**You should also add your songs in the "*songFiles*" array in order to work.**
+**You should also add your songs in the "*songs.json*" file in order to work.**
 
 ```javascript
-let songFiles = [{
-  url: "filename",
-  name: "song name"
-}]
+[
+    {
+        "songs" : [
+            {
+                "name" : "songName1",
+                "url" : "fileNameSong1",
+                "author": "authorOFTheSong1"
+            },
+            {
+                "name" : "songName2",
+                "url" : "fileNameSong2",
+                "author": "authorOFTheSong2"
+            },
+            {
+                "name" : "songName3",
+                "url" : "fileNameSong3",
+                "author": "authorOFTheSong3"
+            }
+        ]
+    }
+]
 ```
+**For now you need to add the songs in aplhabetic order, if not the info of the song will not display correctly. You can add all the songs that you want to the json file if you have the file needed in the songs directory.**
+
+*Until i find a solution to the sort problem, you shoulf put the songs in alphabetic order.*
 
 ## Done so far:
 
-* Day 1:
+* Day 1 (11/03/2019):
 
-  - [x] Media functions (Play/Pause)
-  - [x] Load resources
-  - [x] Loading animation
+  - [x] Media functions (Play/Pause);
+  - [x] Load resources;
+  - [x] Loading animation;
+
+* Day 2 (12/03/2019):
+  - [x] Media functions (Prev/Next);
+  - [x] Load details from .json file;
+  - [x] Beginnig of the animations;
+  - [x] Display details about the song;
   
 ## Common between repos:
   
