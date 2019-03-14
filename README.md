@@ -50,6 +50,11 @@ If you clone this repo you should add your own songs in the "*p5/assets/songs/*"
 * Day 3 (13/03/2019)
   - [x] Code clean;
   
+* Day 4 (14/03/2019)
+  - [x] Rework on the design;
+  - [x] Starting the music visualization;
+  - [x] Added particles;
+  
 ## Common between repos:
   
 * Instagram:
