@@ -46,6 +46,9 @@ If you clone this repo you should add your own songs in the "*p5/assets/songs/*"
   - [x] Load details from .json file;
   - [x] Beginnig of the animations;
   - [x] Display details about the song;
+
+* Day 3 (13/03/2019)
+  - [x] Code clean;
   
 ## Common between repos:
   
