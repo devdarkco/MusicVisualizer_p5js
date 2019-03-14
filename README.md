@@ -1,6 +1,6 @@
 # Music Visualizer with p5js
 
-**See the project at:** [devdarkco.com/projects/musicvisualizer](devdarkco.com/projects/musicvisualizer)
+**See the project at:** [https://devdarkco.com/projects/musicvisualizer](https://devdarkco.com/projects/musicvisualizer)
 
 **Notice:**
 
