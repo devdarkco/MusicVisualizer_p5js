@@ -1,10 +1,9 @@
-//UI
-let songDetailsHolder;
-let songName;
-let songAuthor;
+let songDetailsHolder
+let songName
+let songAuthor
 
-function setupMusicDetails(){
-    songDetailsHolder = createDiv();
+function setupSongDetails(){
+    songDetailsHolder = createDiv()
     songDetailsHolder.class('songDetailsHolder')
 
     songName = createP('name')
@@ -17,7 +16,7 @@ function setupMusicDetails(){
     songDetailsHolder.child(songAuthor)
 }
 
-function setSongDetailsText(){
+function drawSongDetails(){
     if(songLoaded){
         songName.html(songDetails[currentSong].name)
         songAuthor.html(songDetails[currentSong]._author)

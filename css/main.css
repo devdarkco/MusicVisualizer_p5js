@@ -1,6 +1,8 @@
 body {
     margin: 0%;
     padding: 0%;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 #songStatus {
@@ -37,19 +39,39 @@ body {
 
 .songDetailsHolder {
     position: absolute;
-    top: 5%;
+    top: 0%;
     left: 5%;
 }
 
 #songName {
     color: white;
-    font-size: 40px;
+    font-size: 50px;
     text-decoration: underline;
     visibility: hidden;
 }
 
 #songAuthor {
     color: white;
-    font-size: 25px;
+    font-size: 35px;
     visibility: hidden;
+}
+
+.mediaHolder {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+
+#mediaBtn {
+    width: 75px;
+    height: 45px;
+    outline: none;
+    background-color: transparent;
+    background-size: contain;
+    border: none;
+    background-repeat: no-repeat;
+}
+
+#mediaBtn:hover {
+    cursor: pointer;
 }
