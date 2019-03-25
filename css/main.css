@@ -2,33 +2,9 @@ body {
     margin: 0%;
     padding: 0%;
     font-family: 'Montserrat', sans-serif;
-
-}
-
-#songStatus {
+    background-color: black;
     color: white;
-    font-size: 30px;
-    position: absolute;
-    top: 20px;
-    text-align: center;
-    width: 100%;
-}
-
-#loadingText {
-    color: white;
-    font-size: 30px;
-}
-
-.progressBar {
-    height: 30px;
-    top: 3px;
-    background: green;
-}
-
-.progressBarBorder {
-    border: 2px solid white;
-    width: auto;
-    height: 32px;
+    overflow: hidden;
 }
 
 .p5Canvas {
@@ -37,41 +13,48 @@ body {
     padding: 0%;
 }
 
-.songDetailsHolder {
-    position: absolute;
-    top: 0%;
-    left: 5%;
-}
+@media only screen and (max-width: 600px) {
+    #branding{
+        padding-left: 0px;
+        float: none;
+        font-size: 2em;
+        text-align: center;
+    }
 
-#songName {
-    color: white;
-    font-size: 50px;
-    text-decoration: underline;
-    visibility: hidden;
-}
+    .infoHolder {
+        position: fixed;
+    }
 
-#songAuthor {
-    color: white;
-    font-size: 35px;
-    visibility: hidden;
-}
+    #title {
+        padding: none;
+    }
 
-.mediaHolder {
-    position: absolute;
-    top: 35%;
-    left: 5%;
-}
+    #songName {
+        float: none;
+        font-size: 1.2em;
+    }
 
-#mediaBtn {
-    width: 75px;
-    height: 45px;
-    outline: none;
-    background-color: transparent;
-    background-size: contain;
-    border: none;
-    background-repeat: no-repeat;
-}
+    #songAuthor {
+        float: none;
+        font-size: 1em;
+    }
 
-#mediaBtn:hover {
-    cursor: pointer;
-}
+    .songDetailsHolder {
+        width: 100%;
+        left: 0%;
+        position: fixed;
+        float: none;
+        text-align: center;
+    }
+
+    #mediaBtn {
+        width: 35px;
+        height: 35px;
+    }
+
+    .optionsHolder {
+        position: fixed;
+        bottom: 5%;
+        font-size: 10px;
+    }
+} 

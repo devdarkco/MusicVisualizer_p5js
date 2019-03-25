@@ -2,7 +2,7 @@ let songDetailsHolder
 let songName
 let songAuthor
 
-function setupSongDetails(){
+function setupSongDetails() {
     songDetailsHolder = createDiv()
     songDetailsHolder.class('songDetailsHolder')
 
@@ -14,17 +14,19 @@ function setupSongDetails(){
 
     songDetailsHolder.child(songName)
     songDetailsHolder.child(songAuthor)
+    songDetailsHolder.child(timeStampSlider)
+    songDetailsHolder.child(mediaHolder)
 }
 
-function drawSongDetails(){
-    if(songLoaded){
+function drawSongDetails() {
+    if (songLoaded) {
         songName.html(songDetails[currentSong].name)
-        songAuthor.html(songDetails[currentSong]._author)
+        songAuthor.html(songDetails[currentSong].author)
     }
 }
 
-function showDetails(){
-    if(songLoaded){
+function showDetails() {
+    if (songLoaded && deviceChoosed) {
         showElement(songAuthor)
         showElement(songName)
     }

@@ -1,21 +1,15 @@
-[
-    {
-        "songs" : [
-            {
-                "name" : "bellyache",
-                "url" : "bellyache",
-                "_author": "Billie Eilish"
-            },
-            {
-                "name" : "bury a friend",
-                "url" : "bury_a_friend",
-                "_author": "Billie Eilish"
-            },
-            {
-                "name" : "wish you were gay",
-                "url" : "wish_you_were_gay",
-                "_author": "Billie Eilish"
-            }
-        ]
-    }
-]
+[{
+    "songs": [
+
+        {
+            "name": "whoa (mind in awe)",
+            "url": "b",
+            "author": "XXXTENTACION"
+        },
+        {
+            "name": "bury a friend",
+            "url": "a",
+            "author": "Billie Eilish"
+        }
+    ]
+}]

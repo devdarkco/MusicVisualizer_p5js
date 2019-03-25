@@ -1,0 +1,43 @@
+.header {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: 200px;
+}
+
+#branding {
+    font-size: 3em;
+    max-height: 100px;
+}
+
+.infoHolder {
+    position: absolute;
+    top: 50%;
+    display: block;
+    text-align: center;
+    color: white;
+}
+
+#title {
+    padding: 20px;
+}
+
+#pc{
+    font-size: 1em;
+    min-width: 200px;
+    min-height: 50px;
+    text-transform: uppercase;
+    background: #0d0d0d;
+    color: white;
+    margin: 20px;
+}
+
+#smartphone {
+    font-size: 1em;
+    min-width: 200px;
+    min-height: 50px;
+    text-transform: uppercase;
+    background: #0d0d0d;
+    color: white;
+    margin: 20px;
+}

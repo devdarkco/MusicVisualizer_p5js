@@ -1,0 +1,44 @@
+.songDetailsHolder {
+    position: absolute;
+    top: 0%;
+    left: 5%;
+}
+
+#songName {
+    color: white;
+    font-size: 60px;
+    text-decoration: underline;
+    visibility: hidden;
+    margin-block-end: 0px;
+}
+
+#songAuthor {
+    margin-block-start: 10px;
+    color: white;
+    font-size: 30px;
+    visibility: hidden;
+}
+
+.mediaHolder {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mediaBtn {
+    margin: 20px;
+    width: 75px;
+    height: 45px;
+    outline: none;
+    background-color: transparent;
+    background-size: contain;
+    border: none;
+    background-repeat: no-repeat;
+}
+
+#mediaBtn:hover {
+    cursor: pointer;
+}
+
+#timeStamp {
+    width: 100%;
+}

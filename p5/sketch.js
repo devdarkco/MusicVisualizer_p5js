@@ -2,10 +2,8 @@ let songsJson
 let songDetails
 let currentSong = 0
 
-let notes = []
-let note
-
-function preload(){
+function preload() {
+    //Loads the json and attach to the songsJson variable
     songsJson = loadJSON('p5/assets/jsons/songs.json')
 }
 
@@ -18,29 +16,32 @@ function setup() {
     for (let i = 0; i < songDetails.length; i++) {
         loadSongs(songDetails[i].url)
     }
-    
+
+    setupMenu()
     setupMediaButtons()
     setupSongDetails()
     setupPlayAnimation()
-    setupLoadingElements()
+    setupOptions()
 }
 
-function windowResized(){
-    resizeCanvas(windowWidth, windowHeight);
+function windowResized() {
+    resizeCanvas(windowWidth, windowHeight)
 }
 
 function draw() {
+    showMenu()
+    showOptions()
     showMedia()
     drawLoading()
     drawSongDetails()
     showDetails()
-    drawPlayAnimation() 
+    drawPlayAnimation()
 }
 
-function showElement(element){
+function showElement(element) {
     element.style('visibility', 'visible')
 }
 
-function hideElement(element){
+function hideElement(element) {
     element.style('visibility', 'hidden')
 }
