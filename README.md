@@ -1,5 +1,18 @@
 # Music Visualizer with p5js
 
+Music visualizer made with p5js, p5js dom and p5js sound library.
+Main goal was learn the p5js library and make something cool with it.
+For now the repo don't have any songs but you can go to the [site](https://devdarkco.com/projects/musicvisualizer) and see the project by yourself. 
+
+## Features:
+
+* Frequency and Amplitude analyze with p5js sound library;
+* 4 different animations;
+* Options to see all the animations one by one or combined;
+* Support to different devices (pc and smartphone);
+* Html elemets with p5js dom library;
+* Media controls;
+
 **See the project at:** [https://devdarkco.com/projects/musicvisualizer](https://devdarkco.com/projects/musicvisualizer)
 
 **Notice:**
@@ -35,28 +48,6 @@ If you clone this repo you should add your own songs in the "*p5/assets/songs/*"
 
 *Until i find a solution to the sort problem, you shoulf put the songs in alphabetic order.*
 
-## Done so far:
-
-* Day 1 (11/03/2019):
-
-  - [x] Media functions (Play/Pause);
-  - [x] Load resources;
-  - [x] Loading animation;
-
-* Day 2 (12/03/2019):
-  - [x] Media functions (Prev/Next);
-  - [x] Load details from .json file;
-  - [x] Beginnig of the animations;
-  - [x] Display details about the song;
-
-* Day 3 (13/03/2019)
-  - [x] Code clean;
-  
-* Day 4 (14/03/2019)
-  - [x] Rework on the design;
-  - [x] Starting the music visualization;
-  - [x] Added particles;
-  
 ## Common between repos:
   
 * Instagram:
@@ -64,7 +55,7 @@ If you clone this repo you should add your own songs in the "*p5/assets/songs/*"
 * Website:
   [devdarkco.com](devdarkco.com)
   
-## License MIT | Copyright 2019 | DevDarkCode
+### License MIT | Copyright 2019 | DevDarkCode
 
 ![MIT](https://opensource.org/files/OSI_Approved_License.png)
 
