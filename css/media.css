@@ -42,3 +42,29 @@
 #timeStamp {
     width: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+    
+    #songName {
+        float: none;
+        font-size: 1.2em;
+    }
+
+    #songAuthor {
+        float: none;
+        font-size: 1em;
+    }
+
+    .songDetailsHolder {
+        width: 100%;
+        left: 0%;
+        position: fixed;
+        float: none;
+        text-align: center;
+    }
+
+    #mediaBtn {
+        width: 35px;
+        height: 35px;
+    }
+} 

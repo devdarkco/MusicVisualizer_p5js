@@ -7,3 +7,12 @@
 #options {
     width: 50px;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .optionsHolder {
+        position: fixed;
+        bottom: 5%;
+        font-size: 10px;
+    }
+} 
