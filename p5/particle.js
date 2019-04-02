@@ -4,7 +4,7 @@ class Particle {
     if (userData.device == 'pc') {
       this.pos = createVector(width / 2, height - 30)
     } else if (userData.device == 'smartphone') {
-      this.pos = createVector(width / 2, height / 2)
+      this.pos = createVector(width / 2, height - 70)
     }
     this.speed = speed
     this.a = 255
@@ -20,7 +20,7 @@ class Particle {
       if (this.a > 0) this.a -= 3
       this.setColor();
     } else if (userData.device == 'smartphone') {
-      this.vel = createVector(random(-this.speed, this.speed), random(-20, 20))
+      this.vel = createVector(random(-this.speed, this.speed), random(-10, -20))
       this.pos.x += this.vel.x * 100;
       this.pos.y += this.vel.y * this.speed * 2;
       if (this.a > 0) this.a -= 3
